@@ -1,44 +1,46 @@
-.head {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-.background-head
-  {
-    position: relative;
-    top: 0;
-    left: 0;
-    
-  }
-.foreground-head {
-    position: absolute;
-    top: 50px;
-    left: 400px;
-    
-  }
-.head-link{
-    position: absolute;
-    top: 300px;
-    left: 470px; 
-  }
-.head-link a{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-  }
-  .head-button{
-    height: 40px;
-    width: auto;
-    border: 0px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px #0000003f;
-    position: absolute;
-    top: 360px;
-    left: 570px;
-    transition: 0.2s ease;
-  }
-  .head-button:hover{
-    box-shadow: 3px 3px 5px #00000085;
-    transition: 0.2s ease;
-  }
+body {
+  margin: 0px;
+}
+.head-container {
+  position: relative;
+  text-align: center;
+}
+
+.head-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.75vw;
+  
+}
+.head-links b{
+  font-size: 1.60vw;
+}
+.head-links{
+  position: absolute;
+  bottom: 7vw;
+  left: 24vw;
+}
+.head-button{
+  position: absolute;
+  bottom: 3vw;
+  left: 27.5vw;
+}
+.head-button button{
+  height: 3.75vw;
+  width: 14vw;
+  font-size: 1vw;
+  text-align: center;
+  padding: 0.5vw;
+  border-radius: 1vw;
+  box-shadow: 1px 3px 6px #70707046;
+  border-width: 0.1vw;
+  border-color: #70707069;
+  transition: 0.25s ease;
+}
+.head-button button:hover{
+  box-shadow: 1px 3px 6px #707070a8;
+  transition: 0.25s ease;
+}
+.head-button img, span{
+  vertical-align: middle;
+}
